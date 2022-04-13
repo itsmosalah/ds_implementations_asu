@@ -302,7 +302,7 @@ bool dfs(Node<T>* node, int depth, int& treeDepth) {
 		if (treeDepth == 0) {
 			treeDepth = depth;
 			return true;
-		}
+		} 
 
 		//if we reached a leaf with depth different to the one recorded
 		if (depth != treeDepth) {
