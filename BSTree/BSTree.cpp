@@ -183,7 +183,7 @@ BSTree<T>::~BSTree(void)
 	deleteBST(root);
 }
 
-
+//dfs to check if a tree is Full Tree
 template <class T>
 bool dfs(Node<T>* node) {
 
@@ -384,6 +384,7 @@ void BSTree<T>::displayTreeType()
 
 int main() {
 
+	//test scenario
 	BSTree<int>mytree;
 
 	cout << "inserted 5,4,6:\n";
