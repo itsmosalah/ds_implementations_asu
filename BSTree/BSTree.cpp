@@ -212,7 +212,7 @@ bool fullTree(Node<T>* root) {
 
 
 	//empty tree is a full tree
-	if (root)
+	if (root == NULL)
 		return true;
 
 	//applying depth-first search starting from root
